@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>死水原文赏析</title>
+  <style>
+    body {
+      font-family: "Noto Serif SC", "Songti SC", serif;
+      background-color: #f6f6f6;
+      color: #222;
+      line-height: 1.8;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #ffffff;
+      border-bottom: 1px solid #ddd;
+      padding: 20px 40px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+      font-weight: normal;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      background: #ffffff;
+      padding: 40px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    .search-box {
+      margin-bottom: 30px;
+      padding: 15px;
+      background: #fafafa;
+      border: 1px solid #ddd;
+    }
+    .search-box input {
+      width: 70%;
+      padding: 8px;
+      font-size: 16px;
+    }
+    .search-box button {
+      padding: 8px 16px;
+      font-size: 16px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+    .hint {
+      margin-top: 15px;
+      padding: 15px;
+      background: #f1f1f1;
+      border-left: 4px solid #666;
+      display: none;
+      white-space: pre-line;
+    }
+    h2 {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
+      margin-top: 40px;
+    }
+    .poem {
+      background: #fafafa;
+      padding: 20px;
+      font-size: 17px;
+    }
+    .comments {
+      margin-top: 40px;
+      background: #fafafa;
+      padding: 20px;
+      border: 1px solid #ddd;
+    }
+    .comment {
+      border-bottom: 1px solid #e0e0e0;
+      padding: 12px 0;
+    }
+    .comment:last-child {
+      border-bottom: none;
+    }
+    .username {
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+    .time {
+      font-size: 12px;
+      color: #888;
+      margin-left: 8px;
+    }
+    footer {
+      text-align: center;
+      color: #777;
+      font-size: 14px;
+      margin: 40px 0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>《死水》原文赏析</h1>
+</header>
+
+<main>
+
+  <div class="search-box">
+    <div>资料检索：</div>
+    <input type="text" id="searchInput" placeholder="请输入关键词或编号" />
+    <button onclick="search()">搜索</button>
+    <div class="hint" id="hintBox"></div>
+  </div>
+
+  <h2>作品简介</h2>
+  <p>
+    《死水》是现代诗人闻一多于1925年4月创作的一首诗歌，
+    通过对腐败现实的描绘，表达了诗人强烈而深沉的爱国情感。
+  </p>
+
+  <h2>作品原文</h2>
+  <div class="poem">
+    这是一沟绝望的死水，<br>
+    清风吹不起半点漪沦。<br>
+    不如多扔些破铜烂铁，<br>
+    爽性泼你的剩菜残羹。<br><br>
+    也许铜的要绿成翡翠，<br>
+    铁罐上锈出几瓣桃花；<br>
+    再让油腻织一层罗绮，<br>
+    霉菌给他蒸出些云霞。<br><br>
+    让死水酵成一沟绿酒，<br>
+    漂满了珍珠似的白沫；<br>
+    小珠们笑声变成大珠，<br>
+    又被偷酒的花蚊咬破。<br><br>
+    这是一沟绝望的死水，<br>
+    这里断不是美的所在，<br>
+    不如让给丑恶来开垦，<br>
+    看它造出个什么世界。
+  </div>
+
+  <h2>评论区</h2>
+  <div class="comments">
+
+    <div class="comment">
+      <div class="username">青衫客<span class="time">· 5天前</span></div>
+      <div>这首诗真的骂得很狠，用美的词写丑的东西，反而更让人不舒服。</div>
+    </div>
+
+    <div class="comment">
+      <div class="username">法厄同<span class="time">· 5天前</span></div>
+      <div>每次读到“清风吹不起半点漪沦”，都觉得是一种彻底的无力感。</div>
+    </div>
+
+    <div class="comment">
+      <div class="username">匿名用户<span class="time">· 4天前</span></div>
+      <div>我总觉得这不是在写水，而是在写一种状态。</div>
+    </div>
+
+      <div class="comment">
+      <div class="username">jellied eels<span class="time">· 5小时前</span></div>
+      <div>现代的东西，有时候要用比较老的办法去理解。</div>
+    </div>
+
+    <div class="comment">
+      <div class="username">NEKO#ΦωΦ<span class="time">· 3天前</span></div>
+      <div>@Fairy 快来一起讨论</div>
+    </div>
+
+    <div class="comment">
+      <div class="username">Fairy<span class="time">· 3天前</span></div>
+      <div>系统启动完成——我是Ⅲ型总序式集成泛用人工智能，开发代号Fairy。你好。</div>
+    </div>
+
+    <div class="comment">
+      <div class="username">南窗<span class="time">· 3天前</span></div>
+      <div>@Fairy 你对这首诗有什么看法？</div>
+    </div>
+
+    <div class="comment">
+      <div class="username">Fairy<span class="time">· 3天前</span></div>
+      <div>正在思考... 全诗对军阀统治下黑暗陈腐的旧中国进行了强烈的鞭挞与诅咒。</div>
+    </div>
+
+        <div class="comment">
+      <div class="username">流量之外<span class="time">· 3天前</span></div>
+      <div>这个网站给我的感觉不像普通文章页。</div>
+    </div>
+
+    <div class="comment">
+      <div class="username">南窗<span class="time">· 2天前</span></div>
+      <div>页面结构挺干净的，不像是随便套的模板。</div>
+    </div>
+
+    <div class="comment">
+      <div class="username">未登录用户<span class="time">· 18小时前</span></div>
+      <div>这个页面是不是有检索功能？感觉有些词会被单独记下来。</div>
+    </div>
+
+    <div class="comment">
+      <div class="username">清淤者<span class="time">· 16小时前</span></div>
+      <div>有些词确实可以，要不试试搜索。</div>
+    </div>
+
+    <div class="comment">
+      <div class="username">纸杯水渍<span class="time">· 10小时前</span></div>
+      <div>刚发现这个网站字体挺舒服的，比我们语文书好看多了。</div>
+    </div>
+
+ <div class="comment">
+      <div class="username">616<span class="time">· 2天前</span></div>
+      <div>源头不在内容本身，而在它是怎么被展示出来的。</div>
+    </div>
+
+      <div class="comment">
+      <div class="username">NEKO#ΦωΦ<span class="time">· 16小时前</span></div>
+      <div>感觉学诗好难啊呜呜。@Fairy 查看运动列表</div>
+    </div>
+
+      <div class="comment">
+      <div class="username">Fairy<span class="time">· 16小时前</span></div>
+      <div>社区居民的今日运动榜单已发布。当前排名第一的用户：「无人能敌」在一小时内跑了15.6KM。
+        正在搜索超越该记录的方案…正在修改您的运动记录…您已在一小时内跑了600KM…
+        恭喜，您的速度已超过了新艾利都地铁！</div>
+
+    <div class="comment">
+      <div class="username">低电量模式<span class="time">· 8小时前</span></div>
+      <div>查资料的时候总感觉这个页面不只是用来看诗的。</div>
+    </div>
+
+        <div class="comment">
+      <div class="username">NEKO#ΦωΦ<span class="time">· 8小时前</span></div>
+      <div>我看了好几遍评论，比正文还有意思。</div>
+    </div>
+
+   <div class="comment">
+      <div class="username">TP<span class="time">· 8小时前</span></div>
+      <div>问个不相关的，这首诗是不是必背啊？</div>
+    </div>
+
+    <div class="comment">
+      <div class="username">616<span class="time">· 5小时前</span></div>
+      <div>对啊，我们今天马上就要考了。</div>
+    </div>
+
+  </div>
+
+</main>
+
+<footer>
+  现代文学资料社区 · 仅供学习交流
+</footer>
+
+<script>
+  function search() {
+    const input = document.getElementById("searchInput").value.trim();
+    const hintBox = document.getElementById("hintBox");
+
+    const keywords = {
+      "A1Z26": "【系统提示】\nA=1，B=2，C=3……这是最基础的替换方式。",
+      "5723": "17-1 13-21 9-3 11-3 14-1 4-2 20-7 评论区",
+     "NEKO#ΦωΦ": "超人气实况主，有着为数众多的一票铁杆粉丝。常常玩游戏给观众看、在聊天室开启各种辛辣话题跟大家闲聊，乐此不疲。在网络世界中代表着混沌与无秩序，却同时也象征着创造与可能性。"
+
+    };
+
+    hintBox.style.display = "block";
+    hintBox.textContent = keywords[input] || "未找到相关资料。";
+  }
+</script>
+
+</body>
+</html>
+
+
+<!--你并不是第一个来到这里的人。
+只是，大多数人停在了表面。
+他们阅读、评论、争论，
+却从未问过：
+这些文字，是如何被写出来的。-->
